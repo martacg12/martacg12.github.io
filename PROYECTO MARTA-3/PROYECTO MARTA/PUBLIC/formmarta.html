@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<head>
+    <title> FORMULARIO DE INSCRIPCION</title>
+    <meta charset="UTF-8">
+               <!-- conjunto de caracteres para español-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <!-- diseña responsivo-->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+              <!-- compatibilidad con Edge-->
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+              <!-- compatibilidad con Chrome-->
+    <meta name="Author" content="Marta Casado Gonzalez">
+    <meta name="Description" content="ESTO ES UN FORMULARIO">
+	<meta name="Keywords" content="form">
+	<link rel="stylesheet" href="../STYLE/formmarta.css">
+    <link rel="icon" href="../IMAGENES/favicon.ico"  type="image/png"/>
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com"> 
+	<link href="https://fonts.googleapis.com/css2?family=Scada:ital,wght@1,700&display=swap" rel="stylesheet">
+    <style>
+        body {background-color: lightgreen; font-family: 'Abel', sans-serif;}
+        header { background:url(../IMAGENES/fondoheader.jpg);}
+        form {border: 2px solid ; 
+            background-color: white;
+            padding: 10px;
+            font-family: 'Abel', sans-serif; }
+        label {font-family: 'Abel', sans-serif;}
+        main {width:68% ;}
+        aside {background-color:lightgray ; width: 28% ;padding: 20px; text-align: center; border: 2px solid ; float: right;}
+        .footer { background-color: whitesmoke; width: 100%; margin-bottom: 0; padding: 6px;} 
+    </style>
+</head>
+<body>
+    <header>
+        <br>
+        <br>
+        <p class="titulo"> FORMULARIO DE INSCRIPCION</p>
+        <br>
+        <br>
+    </header> 
+    <!--ahora hay una barra de navegacion para enlazar otras paginas -->
+	<nav>
+		<ul>
+			<li><a class="active" href="../index.html">INICIO</a></li>
+			<li><a href="../PUBLIC/precios.html">PRECIOS</a></li>
+			<li><a href="../formmarta.html">REGISTRO</a></li>
+            <li><a href="../PUBLIC/reddecampings.html">RED DE CAMPINGS</a></li>
+		</ul>
+	</nav> 
+    <br>
+    <!--espacio para colocar mi presentacion, enlaces a redes sociales y un formulario de registro-->
+	<aside>
+		<h2 class="tituloaside"> <strong> <i>QUIENES SOMOS </i> </strong> </h2>
+    	<div class="uno">
+			<img src="../IMAGENES/yo.jpg" style="width: 100%;"/> 
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<div class="dos">
+			<p class="tres"><strong>Marta Casado Gonzalez</strong></p> 
+		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<h2 class="tituloaside"> <strong> <i> EMPRESA CON AMPLIA TRAYECTORIA </i> </strong> </h2>
+		<p>Fue en 1983 cuando MOVIL HOME inició su actividad profesional con una pequeña línea de produccion y muy centrada 
+		en el segmento profesional.Actualmente, la empresa dispone de unas modernas instalaciones de más de 6000m2 para la 
+		fabricación de productos; distribuyéndolos a través de canales especializados y grandes cadenas de distribución.
+		Hoy en día, MOVIL HOME es una empresa conocida y reconocida por su excelente relación calidad-precio. Su flexibilidad 
+		para adaptarse a las necesidades de sus clientes, aportándoles valor y alineándose con sus estrategias, así como su 
+		versatilidad innovadora, la han posicionado como un referente en el sector.</p>
+		<br>
+		<img src="../IMAGENES/asidefoto.png" style="width: 80%;">
+		<br>
+		<br>
+		<br>
+		<br>
+	</aside>
+    <!--ahora hay un formulario dividido en dos secciones -->
+    <main>
+        <form>
+            <section>
+                <fieldset>
+                    <legend class="otro"> <b>DATOS PERSONALES:</b> </legend>
+                        <br>
+                        <label>Nombre <input type="text" id="fname" name="fname" placeholder="Introduzca su nombre" required ><br></label>
+                        <br> 
+                        <label for="lname">Apellidos <input type="text" id="lname" name="lname" placeholder="Introduzca su apellido" required> <br> </label>
+                        <br>
+                        <label for="pwd">Introduzca su Password: <input type="password" id="pwd" name="pwd" required placeholder="Introduzca su password"> <br> </label>
+                        <br>
+                        <label>Introduzca su correo electronico:<input type="email" id="email" name="email" required placeholder="example@example.com"> <br> </label>
+                        <br>
+                        <label> Introduzca su fecha de nacimiento: <input type="date" name="fecha" required > <br> </label>
+                </fieldset>
+            </section>
+            <br>
+            <section>
+                <fieldset>
+                    <legend class="otro"> <b> OTROS DATOS:</b> </legend>
+                        <label>Por favor su sexo:</label> <br>
+                        <input type="radio" id="male" name="genero" value="Hombre">
+                        <label for="male">Hombre</label><br>
+                        <input type="radio" id="female" name="genero" value="Mujer">
+                        <label for="female">Mujer</label><br>
+                        <input type="radio" id="other" name="genero" value="Otros">
+                        <label for="other">Otros</label>
+                        <br>
+                        <br>  
+                        <label> Selecciona el/los productos que te interesan:</label>
+                        <br>
+                        <input type="checkbox" name="caravanas"> Caravanas<br>
+                        <input type="checkbox" name="autocaravanas"> Autocaravanas<br>
+                        <input type="checkbox" name="movilhome"> Movil Home<br>
+                        <br>
+                        <label> Selecciona tu pais: <input name="pais" type="text" list="pais" required> <br> </label>
+                        <datalist id="pais">
+                            <option value="Francia">
+                            <option value="Alemania">
+                            <option value="Mexico">
+                            <option value="Espana">
+                            <option value="Inglaterra">
+                            <option value="Italia">
+                        </datalist>
+                        <br>
+                        <label> Selecciona tu color favorito para los productos:<input type="color" name="colorprincipal" required><br></label>
+                        <br>
+                        <label>Introduce tu numero de telefono: <input type="tel" name="telefono" placeholder="numero de 9 digitos"  
+                            title="Introduce un telefono de 9 digitos numericos comprendidos entre 0 y 9" required> </label>
+                        <br>
+                        <br>
+                        <label> Valora nuestra web de 0 a 10 en orden creciente de la barra: <input type="range" name="nota" min="0" max="10" required></label>
+                        <br>
+                        <br>
+                        <label>Deja un comentario sobre algun producto:</label><br>
+                        <textarea rows="4" cols="50" name="comment" form="usrform">Escribe aqui</textarea>
+                        <br>
+                        <br>
+                </fieldset>
+            </section>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+            <button onclick="alert('Los datos se han borrado')" type="reset">Resetear</button>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+        </form>
+    </main>
+    <br>
+    	<!-- footer con botones a las redes sociales-->
+	<div class="footer"> 
+		<br>
+        <p class="textofooter"><strong>- NUESTRAS REDES SOCIALES:</strong></p>
+		<a href="https://www.facebook.com" target="_blank"><button class="boton"> <img src="../IMAGENES/logofacebook.jpg" style="width: 10%;"> </button></a>
+		<a href="https://www.instagram.com" target="_blank"><button class="boton"> <img src="../IMAGENES/logoinstagram.png" style="width: 10%;"> </button></a>
+		<a href="https://twitter.com/?lang=es" target="_blank"><button class="boton"> <img src="../IMAGENES/logotwitter.jpg" style="width: 10%;"> </button></a>
+		<a href="https://www.tiktok.com/es" target="_blank"><button class="boton"> <img src="../IMAGENES/tiktok-logo.svg" style="width: 10%;"> </button></a>
+		<br>
+		<br>
+	</div>
+    <script>
+        alert ("Buenas tardes, aqui puede registrarse") ;
+       
+    </script>
+</body>

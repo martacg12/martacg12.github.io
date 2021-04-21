@@ -1,0 +1,30 @@
+.titulo { background-color:whitesmoke;color: black; 
+    font-family: 'Abel', sans-serif; 
+    text-align: center; 
+    font-size: 60px ; }
+.otros {font-family: 'Abel', sans-serif;}
+.otro {font-family: 'Abel', sans-serif; color: darkblue;}
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke }
+li {
+  float: left;}
+li a {display: block;
+  color: black;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+li a:hover {background-color: grey;}
+.textofooter {font-family: 'Abel', sans-serif;}
+.footer button:hover {background-color: lightcoral;}
+.boton { background-color: lightgray; width: 24%;}
+.uno {float: right; width: 60%;}
+.dos {float: left; width: 37%;}
+.tituloaside    {font-family: 'Scada', sans-serif;}
+.textoheader    {text-align: center;
+  padding: 15px ;
+  font-family: 'Abel', sans-serif;}
+  

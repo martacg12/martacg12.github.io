@@ -1,0 +1,49 @@
+.textoheader    {text-align: center;
+                padding: 15px ;
+                font-family: 'Abel', sans-serif;}
+.textomain      {font-family:'Abel', sans-serif ;}
+.titulossection {font-family: 'Abel', sans-serif; ;}
+.titulomain     {font-family:'Abel', sans-serif; 
+                color: black; 
+                font-size: 23px;}
+.tituloaside    {font-family: 'Scada', sans-serif;}
+.cajaprincipal  > h1
+.cajaprincipal  {padding: 5px;
+                background-color: lightgray;}
+.cajapeque      > h2
+.cajapeque      {margin: 10px;
+                padding: 5px;
+                background-color: white;}
+.parrafoarticle {margin: 4px;
+                font-size: 90%;
+                font-family:'Montserrat', sans-serif}
+ .all-browsers {margin: 0;
+                    padding: 5px;
+                    background-color: lightgray; }                
+.all-browsers > h1, .browser {margin: 10px;
+                    padding: 5px;}
+.browser {background: white; border: solid 1px;}
+.browser > h2, p { padding: 5px;
+                    margin: 4px;
+                    font-size: 20px}
+ul {list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: whitesmoke }
+li {
+  float: left;}
+li a {display: block;
+  color: black;
+  font-family: 'Abel', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;}
+li a:hover {background-color: grey;}
+.textofooter {font-family: 'Abel', sans-serif;}
+.uno {float: right; width: 60%;}
+.dos {float: left; width: 37%;}
+.tres {font-size: 28px;}
+.boton { background-color: lightgray; width: 24%;}
+.footer button:hover {background-color: lightcoral;}
+                   
